@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-fwstudio-132192.jpg");
+    /* background-repeat: no-repeat, repeat; */
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: black;
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.headings {
+    margin-top: 40px;
+}
+
+.imageClass {
+    width: 60px;
+    height: 60px;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* padding: 20px; */
+}
+
+/* Style each image link */
+.image-link {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style the image within the link */
+.image-link img {
+    width: 180px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add a hover effect to the image */
+.image-link:hover img {
+    transform: scale(1.1);
+}
